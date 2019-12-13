@@ -1,0 +1,228 @@
+
+
+*{
+  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+  background-color: #4775d1;
+}
+header {
+  height: 200px;
+  background-color: #4775d1;
+}
+header h1{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-size: 425%;
+  color: white;
+  font-family: fantasy;
+}
+#geraTabela{
+
+background-color:#4775d1; 
+
+}
+#geranum{
+
+  background-color:#4775d1; 
+}
+main {
+  text-align: center;
+  min-height: 1150px;
+}
+main button{
+  text-transform: uppercase;
+  font-size: 250%;
+  margin-top: 30px;
+  
+  width: 30%;
+  background-color: #151515;
+  color: white;
+}
+table{
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 5%;
+  background-color: #151515;
+  color: white;
+}
+table h1{
+  color: black;
+  font-style: black;
+}
+td{
+  padding:4px 20px;
+  border-style:solid;
+  border-width:1px;
+  border-color:black;
+  background-color: #140b9c;
+  font-family: Arial;
+  font-size: 300%;
+  text-decoration-color: black;
+}
+main h2{
+  font-family: Arial;
+  font-size: 300%;
+  text-transform: uppercase;
+  color:white;
+  margin-top: 40px;
+  
+}
+.ng{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  background-color:#4775d1; 
+  border:solid 3px white;
+  
+  color:white;
+  height: 100px;
+}
+p{
+  font-family: Pacifico;
+  font-size: 320%;
+  float: left;
+  text-align: center;
+  padding-left: 20px;
+}
+main h1{
+  font-size: 500%;
+  font-family: Pacifico;
+}
+footer{
+  height: 450px;
+  background-color: white;
+  color:white;
+
+}
+footer h1{
+  text-align: center;
+  font-family: arial;
+  margin-top: 20px;
+  color:#4775d1;
+  font-size: 500%;
+  text-transform: uppercase;
+}
+.sing{
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+.sing h2{
+  text-align: center;
+  font-family: Calistoga;
+  margin-top: 20px;
+  color:#4775d1;
+  font-size: 300%;
+  text-transform: uppercase;
+}
+
+.sing p{
+  text-align: center;
+  font-family: Calistoga;
+  margin-top: 20px;
+  font-size: 180%;
+  color:#4775d1;
+  padding: 2px;
+}
+
+/*desktop*/
+
+@media only screen and (min-width: 1024px) {
+  *{
+    box-sizing: border-box;
+  	margin: 0;
+  	padding: 0;
+  }
+  header {
+    height: 100px;
+  }
+  header h1{
+    font-size: 550%;
+    margin-top: 20px;
+  }
+  main {
+    text-align: center;
+    min-height: 1800px;
+  }
+  
+  #geraTabela{
+    position: relative;
+    height: 3vw;
+    width: 32%;
+    font-size: 30px;
+    margin-top: 13%
+    background-color:#4775d1; 
+  }
+
+  #geranum{
+    position: relative;
+    height: 3vw;
+    width: 35%;
+    font-size: 30px;
+    background-color:#4775d1; 
+  }
+
+  main h2{
+    font-size: 150%;
+    margin-top: 30px;
+  }
+  .ng{
+    margin-top: 20px;
+    height: 100px;
+    background-color:#4775d1; 
+    border:solid 3px white;
+    color:white;
+  }
+  table{
+    float: left;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 2%;
+    background-color: #4775d1; 
+  }
+  td{
+    font-size: 100%;
+    background-color: #4775d1;
+    border-color:black;
+  }
+  footer{
+    background-color: white;
+    
+  }
+  footer h1{
+    text-align: center;
+    font-family: arial;
+    margin-top: 40px;
+    font-size: 500%;
+    color:#4775d1;
+    text-transform: uppercase;
+  }
+  .sing{
+    position: relative;
+    left: 25%;
+    width: 50%;
+  }
+  .sing h2{
+    text-align: center;
+    font-family: arial;
+    color:lightblue;
+    margin-top: 20px;
+    font-size: 300%;
+    text-transform: uppercase;
+  }
+  
+  .sing p{
+    text-align: center;
+    font-family:arial;
+    color:#4775d1;
+    margin-top: 20px;
+    font-size: 180%;
+    padding: 2px;
+  }
+}
